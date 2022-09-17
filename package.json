@@ -1,5 +1,6 @@
 {
   "name": "all-hp-thingsp",
+  "homepage": "http://geicibarham.github.io/Riddikulus",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
