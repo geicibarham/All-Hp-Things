@@ -1,0 +1,20 @@
+
+
+#home{
+background-image: url('../../assets/images/hogwartz-dark.jpg');
+min-height: 80vh;
+background-size: cover;
+background-position: center;
+/* display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: flex-start; */
+/* background-attachment: fixed; */
+background-position: 20%;
+background-repeat: no-repeat;
+}
+
+@media screen  and (max-width:768px){
+    
+   
+}
