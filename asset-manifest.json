@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Riddikulus/static/css/main.d3b7ec65.css",
+    "main.js": "/Riddikulus/static/js/main.09955f30.js",
+    "static/js/787.fe66363f.chunk.js": "/Riddikulus/static/js/787.fe66363f.chunk.js",
+    "static/media/hogwartz-dark.jpg": "/Riddikulus/static/media/hogwartz-dark.bc5398c2f2b7b53e2ad9.jpg",
+    "index.html": "/Riddikulus/index.html",
+    "main.d3b7ec65.css.map": "/Riddikulus/static/css/main.d3b7ec65.css.map",
+    "main.09955f30.js.map": "/Riddikulus/static/js/main.09955f30.js.map",
+    "787.fe66363f.chunk.js.map": "/Riddikulus/static/js/787.fe66363f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3b7ec65.css",
+    "static/js/main.09955f30.js"
+  ]
+}
