@@ -1,12 +1,13 @@
 import styles from "./home.module.css";
-import Nav from "../nav/nav";
+import 'animate.css';
 const Home = () => {
   const test = () => {
     console.log("test");
   };
   return (
     <section id={styles.home}>
-      <button onClick={test}>Enter</button>
+      <button className="animate__animated animate__backInDown"
+       onClick={test}>Enter</button>
     </section>
   );
 };

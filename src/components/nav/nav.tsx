@@ -2,7 +2,7 @@ import styles from "./nav.module.css";
 const Nav = () => {
   return (
     <nav className={styles.nav}>
-      <h1>Riddikulus ϟ</h1>
+      <h1>Riddikulusϟ</h1>
     </nav>
   );
 };
