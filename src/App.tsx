@@ -5,13 +5,14 @@ import Nav from "./components/nav/nav";
 import Footer from "./components/footer/footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Characters from "./components/characters/characters";
+
+
 function App() {
+
   return (
   <div className="App">
     <Router>
       <Nav />
-    
-
       <Routes>
         <Route path="/Riddikulus" element={<Home />} />
 

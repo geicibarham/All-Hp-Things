@@ -1,5 +1,48 @@
 
 #characters {
-    background-color: hotpink;
+   
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    /* width: 100px; */
+    margin: 50px 0 0 50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+	grid-template-rows: 2fr 2fr 2fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
+    background-image: url('../../assets/images/paper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+   margin:0;
+   min-height: 100vh;
+   padding:30px;
+   color:white;
 }
+.img__card {
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+aside{
+    background-color: #310012;
+    padding:20px;
+    border-radius: 20px;
+}
+
+.icon{
+    height:40px;
+   
+
+}
+@media only screen and (max-width: 768px) {
+    #characters{
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 1em;
+      grid-row-gap: 50px;
+    }
+  }
