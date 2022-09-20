@@ -1,16 +1,23 @@
-.nav {
+nav {
     background-color: #0a1722;
     /* padding:8px; */
     color: white;
-    display: grid;
-    height: 64px;
-    grid-template-columns: auto;
-    justify-items: center;
-    /* display: flex;
-    justify-content: center; */
-
+    display: flex;
+    height: fit-content;
+    justify-content: center;
     padding: 10px;
     line-height: 0;
+    width: 100%;
+    top:0;
+
+    display:flex;
+    justify-content: center;
+
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 9999;
+    overflow: hidden
+    
 
 }
 
@@ -21,3 +28,11 @@ h1 {
     padding: 0;
     text-align: center;
 }
+
+
+
+/* @media screen and (max-width:768px) {
+    .nav{
+        background-color: hotpink;
+    }
+} */

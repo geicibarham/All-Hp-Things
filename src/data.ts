@@ -2,7 +2,7 @@ const characters = [
    
     {
     "id": "60be073e-2f67-416c-a87d-c9b0a8129261",
-    "name": "Harry Potter",
+    "name": "test",
     "actor": "Daniel Radcliffe",
     "image": "http://hp-api.herokuapp.com/images/harry.jpg",
     "house": "Gryffindor",
@@ -38,7 +38,7 @@ const characters = [
     "name": "Draco Malfoy",
     "actor": "Tom Felton",
     "image": "http://hp-api.herokuapp.com/images/draco.jpg",
-    "house": "Gryffindor",
+    "house": "Slytherin",
     "icon":require ('../src/assets/images/sl.png')
     },
     {

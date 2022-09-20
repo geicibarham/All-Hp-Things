@@ -7,6 +7,11 @@ import characters from "../../data";
 const Characters = () => {
   //   const [characters, setCharacters] = useState<Character[]>([]);
   const [error, setError] = useState({});
+  const [test,setTest] = useState(false)
+
+  useEffect (() => {
+    setTest(true)
+  },[])
   //   const [data, setData] = useState<Character[]>([]);
 
 //   interface Character {
@@ -27,17 +32,19 @@ const Characters = () => {
     <>
       <section id={styles.characters}>
         <>
-          {/* {characters.length > 0
-          ? characters.map((character: Character) =>
-              console.log(character.name)
-          
-            )
-          : "Loading..."} */}
-
+         
           {characters&&
             characters.map((character) => (
               <>
-                <aside key={character.id}>
+
+              {/* {character.house === "test" ? "test" :
+   "bla")} */}
+                <aside style={{backgroundColor:`${character.house === "Gryffindor"
+                ?"#310012" : `${character.house === 'Slytherin' ? "#00381f" : 'hotpink'}`
+          }
+                `}}
+                
+                key={character.id}>
                   <h2>{character.name}</h2>
 
                   {character.image && (
