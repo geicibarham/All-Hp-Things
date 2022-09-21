@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/Riddikulus/static/css/main.f21466f6.css",
-    "main.js": "/Riddikulus/static/js/main.5e2aa73e.js",
+    "main.css": "/Riddikulus/static/css/main.ebcd2be4.css",
+    "main.js": "/Riddikulus/static/js/main.6eaf6199.js",
     "static/js/787.fe66363f.chunk.js": "/Riddikulus/static/js/787.fe66363f.chunk.js",
     "static/media/dud.png": "/Riddikulus/static/media/dud.b0e52196bc7f1db6d1e9.png",
+    "static/media/batilda.png": "/Riddikulus/static/media/batilda.4b4bcbe0d33bcb9cd193.png",
+    "static/media/marjorie.png": "/Riddikulus/static/media/marjorie.021d54b69e63760d4427.png",
+    "static/media/george.png": "/Riddikulus/static/media/george.39673d425ee06013bce5.png",
     "static/media/paper.jpg": "/Riddikulus/static/media/paper.5ab359763fabc89cb45e.jpg",
+    "static/media/quirrel.png": "/Riddikulus/static/media/quirrel.0a2160c1560317e8d0b4.png",
+    "static/media/percy.png": "/Riddikulus/static/media/percy.8870dbb58ebfebc4a52f.png",
+    "static/media/dumbledore.png": "/Riddikulus/static/media/dumbledore.b17e1ebb4fc64276f675.png",
+    "static/media/molly.jpg": "/Riddikulus/static/media/molly.b63856a26c7a80ec37ba.jpg",
     "static/media/james.png": "/Riddikulus/static/media/james.6019a6c5b492c16bb2df.png",
+    "static/media/newt.jpg": "/Riddikulus/static/media/newt.a7a4272b3888fd375e57.jpg",
+    "static/media/charlie.png": "/Riddikulus/static/media/charlie.69f318ed50a24f259201.png",
     "static/media/hif.png": "/Riddikulus/static/media/hif.dbad39d7c3d62c2accf6.png",
     "static/media/lilly.png": "/Riddikulus/static/media/lilly.556a27323723778882cb.png",
+    "static/media/fig.png": "/Riddikulus/static/media/fig.61135d6ffa63a27af44a.png",
     "static/media/tom.png": "/Riddikulus/static/media/tom.911930ceb25b52edc20a.png",
     "static/media/raw.png": "/Riddikulus/static/media/raw.2ea76318744652dc0212.png",
     "static/media/petunia.jpg": "/Riddikulus/static/media/petunia.f6e0bfcfefb085c79d58.jpg",
@@ -15,13 +25,18 @@
     "static/media/hogwartz-dark.jpg": "/Riddikulus/static/media/hogwartz-dark.bc5398c2f2b7b53e2ad9.jpg",
     "static/media/grif.png": "/Riddikulus/static/media/grif.be4b40fb995bd28312f2.png",
     "static/media/sl.png": "/Riddikulus/static/media/sl.161533261f0d458e7def.png",
+    "static/media/lee.jpg": "/Riddikulus/static/media/lee.24ee173a5687f066e80f.jpg",
+    "static/media/griphook.jpg": "/Riddikulus/static/media/griphook.aab9773e212007206a5f.jpg",
+    "static/media/ollivander.jpg": "/Riddikulus/static/media/ollivander.96a2cca76abd87e4e369.jpg",
+    "static/media/fred.jpg": "/Riddikulus/static/media/fred.3e1962983b1a62852f15.jpg",
+    "static/media/madam.jpg": "/Riddikulus/static/media/madam.5b4d0b23f9752aab077b.jpg",
     "index.html": "/Riddikulus/index.html",
-    "main.f21466f6.css.map": "/Riddikulus/static/css/main.f21466f6.css.map",
-    "main.5e2aa73e.js.map": "/Riddikulus/static/js/main.5e2aa73e.js.map",
+    "main.ebcd2be4.css.map": "/Riddikulus/static/css/main.ebcd2be4.css.map",
+    "main.6eaf6199.js.map": "/Riddikulus/static/js/main.6eaf6199.js.map",
     "787.fe66363f.chunk.js.map": "/Riddikulus/static/js/787.fe66363f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f21466f6.css",
-    "static/js/main.5e2aa73e.js"
+    "static/css/main.ebcd2be4.css",
+    "static/js/main.6eaf6199.js"
   ]
 }
