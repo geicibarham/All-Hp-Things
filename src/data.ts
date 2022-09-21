@@ -350,37 +350,26 @@ const characters = [
     "id": "acb6caa5-f62e-462d-b167-c810a3b57012",
     "name": "Bill Weasley",
     "actor": "Richard Fish",
-    "image": null
+    "image": require ('../src/assets/images/bill.jpg'),
+    "icon": require ('../src/assets/images/grif.png'),
+    "house":"Gryffindor",
     },
-    {
-    "id": "fe7ab6dc-1d10-477e-ab46-2d15f592ce08",
-    "name": "Hedwig",
-    "actor": "Gizmo",
-    "image": null
-    },
-    {
-    "id": "196c07a8-b3b4-4449-8cad-b8e2f58cce32",
-    "name": "Fat Friar",
-    "actor": "Simon Fisher-Becker",
-    "image": null
-    },
-    {
-    "id": "020e68c7-25f5-401c-81a8-567452a89621",
-    "name": "Emeric the Evil",
-    "actor": "",
-    "image": null
-    },
+
     {
     "id": "061baaf8-1270-460d-b308-2944f49e9a83",
     "name": "Padma Patil",
     "actor": "Sharon Sandhu",
-    "image": null
+    "image": require ('../src/assets/images/padma.jpg'),
+    "icon": require ('../src/assets/images/raw.png'),
+    "house":"Ravenclaw",
     },
     {
     "id": "09ba1ec2-a90c-4fba-9bcf-68073cb7b893",
     "name": "Blaise Zabini",
     "actor": "Louis Cordice",
-    "image": null
+    "image": require ('../src/assets/images/blaise.png'),
+    "icon": require ('../src/assets/images/sl.png'),
+    "house":"Slytherin",
     },
     {
     "id": "0c128a5b-ce02-4b6e-993c-d743507451d5",
