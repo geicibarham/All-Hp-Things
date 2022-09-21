@@ -2,7 +2,7 @@ const characters = [
    
     {
     "id": "60be073e-2f67-416c-a87d-c9b0a8129261",
-    "name": "test",
+    "name": "Harry Potter",
     "actor": "Daniel Radcliffe",
     "image": "http://hp-api.herokuapp.com/images/harry.jpg",
     "house": "Gryffindor",
@@ -46,80 +46,105 @@ const characters = [
     "name": "Cedric Diggory",
     "actor": "Robert Pattinson",
     "image": "http://hp-api.herokuapp.com/images/cedric.png",
-    "house": "Gryffindor",
+    "house": "Hufflepuff",
     "icon":require ('../src/assets/images/hif.png')
     },
     {
     "id": "70232137-f73a-4721-82a2-f17e88267d9e",
     "name": "Cho Chang",
     "actor": "Katie Leung",
-    "image": "http://hp-api.herokuapp.com/images/cho.jpg"
+    "image": "http://hp-api.herokuapp.com/images/cho.jpg",
+    "house": "Ravenclaw",
+    "icon":require ('../src/assets/images/raw.png')
     },
     {
     "id": "79050f08-c0d1-4b86-b499-b6b3f77af7ed",
     "name": "Severus Snape",
     "actor": "Alan Rickman",
-    "image": "http://hp-api.herokuapp.com/images/snape.jpg"
+    "image": "http://hp-api.herokuapp.com/images/snape.jpg",  
+    "house": "Slytherin",
+    "icon":require ('../src/assets/images/sl.png')
     },
     {
     "id": "70c2cd3a-09ac-4273-88dc-917018f71812",
     "name": "Rubeus Hagrid",
     "actor": "Robbie Coltrane",
-    "image": "http://hp-api.herokuapp.com/images/hagrid.png"
+    "image": "http://hp-api.herokuapp.com/images/hagrid.png",
+      "house": "Gryffindor",
+      "icon":require ('../src/assets/images/grif.png')
     },
     {
     "id": "55e454a4-6a19-469e-9460-38b121b83994",
     "name": "Neville Longbottom",
     "actor": "Matthew Lewis",
-    "image": "http://hp-api.herokuapp.com/images/neville.jpg"
+    "image": "http://hp-api.herokuapp.com/images/neville.jpg",
+    "house": "Gryffindor",
+    "icon":require ('../src/assets/images/grif.png')
     },
     {
     "id": "90e9377f-59c1-4d13-899e-b3fc6ef114d2",
     "name": "Luna Lovegood",
     "actor": "Evanna Lynch",
-    "image": "http://hp-api.herokuapp.com/images/luna.jpg"
+    "image": "http://hp-api.herokuapp.com/images/luna.jpg",
+    "house": "Ravenclaw",
+    "icon":require ('../src/assets/images/raw.png')
     },
     {
     "id": "4d3bfc67-38d9-4ce3-876a-a647cced9cac",
     "name": "Sirius Black",
     "actor": "Gary Oldman",
-    "image": "http://hp-api.herokuapp.com/images/sirius.JPG"
+    "image": "http://hp-api.herokuapp.com/images/sirius.JPG",
+    "house": "Gryffindor",
+    "icon":require ('../src/assets/images/grif.png')
     },
     {
     "id": "5ad8d059-3c4c-4e5f-acf0-ccc2f469fb65",
     "name": "Ginny Weasley",
     "actor": "Bonnie Wright",
-    "image": "http://hp-api.herokuapp.com/images/ginny.jpg"
+    "image": "http://hp-api.herokuapp.com/images/ginny.jpg",
+    "house": "Gryffindor",
+    "icon":require ('../src/assets/images/grif.png')
     },
     {
     "id": "952f6305-1420-4bb3-9fe4-8f383f102b4b",
     "name": "Arthur Weasley",
     "actor": "Mark Williams",
-    "image": "http://hp-api.herokuapp.com/images/arthur.jpg"
+    "image": "http://hp-api.herokuapp.com/images/arthur.jpg",
+    "house": "Gryffindor",
+    "icon":require ('../src/assets/images/grif.png')
     },
     {
     "id": "b55e8ab7-0617-40c2-9586-d045b27ac3d8",
     "name": "Remus Lupin",
     "actor": "David Thewlis",
-    "image": "http://hp-api.herokuapp.com/images/lupin.jpg"
+    "image": "http://hp-api.herokuapp.com/images/lupin.jpg",
+    "house": "Gryffindor",
+    "icon":require ('../src/assets/images/grif.png')
     },
     {
     "id": "6f88852e-0b15-49aa-a2fd-de934a3bfebe",
     "name": "Lord Voldemort",
     "actor": "Ralph Fiennes",
-    "image": "http://hp-api.herokuapp.com/images/voldemort.jpg"
+    "image": "http://hp-api.herokuapp.com/images/voldemort.jpg",
+    "house": "Slytherin",
+    "icon":require ('../src/assets/images/sl.png')
+
     },
     {
     "id": "e911a762-1e1a-4efc-84ac-76cbc2b55fbd",
     "name": "Bellatrix Lestrange",
     "actor": "Helena Bonham Carter",
-    "image": "http://hp-api.herokuapp.com/images/bellatrix.jpg"
+    "image": "http://hp-api.herokuapp.com/images/bellatrix.jpg",
+    "house": "Slytherin",  
+      "icon":require ('../src/assets/images/sl.png')
     },
     {
     "id": "0aca3a2b-0ce9-4239-91a3-1416d3769664",
     "name": "Horace Slughorn",
     "actor": "Jim Broadbent",
-    "image": "http://hp-api.herokuapp.com/images/slughorn.JPG"
+    "image": "http://hp-api.herokuapp.com/images/slughorn.JPG",
+    "house": "Slytherin",
+    "icon":require ('../src/assets/images/sl.png')
     },
     {
     "id": "788d0784-b9bc-4362-80ad-e7f49803a32f",
@@ -131,25 +156,33 @@ const characters = [
     "id": "6b99e79e-bd03-4727-b3db-43a54056bbad",
     "name": "Dolores Umbridge",
     "actor": "Imelda Staunton",
-    "image": "http://hp-api.herokuapp.com/images/umbridge.jpg"
+    "image": "http://hp-api.herokuapp.com/images/umbridge.jpg",
+    "house": "Slytherin",
+    "icon":require ('../src/assets/images/sl.png')
     },
     {
     "id": "2800b208-a2aa-4cdf-a16e-f66466c67089",
     "name": "Gregory Goyle",
     "actor": "Josh Herdman",
-    "image": "http://hp-api.herokuapp.com/images/goyle.jpg"
+    "image": "http://hp-api.herokuapp.com/images/goyle.jpg",
+    "house": "Slytherin",
+    "icon":require ('../src/assets/images/sl.png')
     },
     {
     "id": "33814066-6efd-48c0-af64-ee61b78ced37",
     "name": "Vincent Crabbe",
     "actor": "Jamie Waylett",
-    "image": "http://hp-api.herokuapp.com/images/crabbe.jpg"
+    "image": "http://hp-api.herokuapp.com/images/crabbe.jpg",
+    "house": "Slytherin",
+    "icon":require ('../src/assets/images/sl.png')
     },
     {
     "id": "e0c10662-124f-45d9-99aa-683e0aa03f08",
     "name": "Lucius Malfoy",
     "actor": "Jason Isaacs",
-    "image": "http://hp-api.herokuapp.com/images/lucius.jpg"
+    "image": "http://hp-api.herokuapp.com/images/lucius.jpg",
+    "house": "Slytherin",
+    "icon":require ('../src/assets/images/sl.png')
     },
     {
     "id": "d2d945b2-ac24-4084-97b6-c43a4534e00e",
@@ -167,49 +200,41 @@ const characters = [
     "id": "653b550d-bd98-4fe7-9db8-e2ff2cd586f3",
     "name": "Lily Potter",
     "actor": "Geraldine Somerville",
-    "image": null
+    "image":require ('../src/assets/images/lilly.png'),
+    "house": "Gryffindor",
+    "icon":require ('../src/assets/images/grif.png')
     },
     {
     "id": "844a2b60-f2cf-46a8-aa5f-96f9399b6f61",
     "name": "Dudley Dursley",
     "actor": "Harry Melling",
-    "image": null
+    "image":require ('../src/assets/images/dud.png')
     },
     {
     "id": "9ad818c8-e53e-49ec-9372-45e55f55d0da",
     "name": "Vernon Dursley",
     "actor": "Richard Griffiths",
-    "image": null
+    "image":require ('../src/assets/images/Vernon.jpg')
     },
     {
     "id": "cca3ffc4-b102-4e10-9aaa-5cb821becdf1",
     "name": "Petunia Dursley",
     "actor": "Fiona Shaw",
-    "image": null
+    "image":require ('../src/assets/images/petunia.jpg')
     },
     {
     "id": "04ed7e3e-b550-4985-b118-8eef9e7593a4",
     "name": "James Potter",
     "actor": "Adrian Rawlins",
-    "image": null
-    },
-    {
-    "id": "06dfe22e-cbc6-468c-a409-e1156b3bde06",
-    "name": "Miranda Gaushawk",
-    "actor": "",
-    "image": null
-    },
-    {
-    "id": "0d2e34dc-c2b1-44c3-b214-f3fddda1867b",
-    "name": "Malcolm",
-    "actor": "Richard Macklin",
-    "image": null
+    "image":require ('../src/assets/images/james.png'),
+    "house": "Gryffindor",
+    "icon":require ('../src/assets/images/grif.png')
     },
     {
     "id": "1d62258c-0468-4a87-a358-9352e5d45f15",
     "name": "Tom",
     "actor": "Derek Deadman",
-    "image": null
+    "image":require ('../src/assets/images/tom.png'),
     },
     {
     "id": "30af3d6b-5c42-455c-b892-df99e211efcb",

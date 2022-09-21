@@ -7,20 +7,20 @@ import characters from "../../data";
 const Characters = () => {
   //   const [characters, setCharacters] = useState<Character[]>([]);
   const [error, setError] = useState({});
-  const [test,setTest] = useState(false)
+  const [test, setTest] = useState(false);
 
-  useEffect (() => {
-    setTest(true)
-  },[])
+  useEffect(() => {
+    setTest(true);
+  }, []);
   //   const [data, setData] = useState<Character[]>([]);
 
-//   interface Character {
-//     name: string;
-//     actor: string;
-//     id: string;
-//     image: string;
-//     house?: string;
-//   }
+  //   interface Character {
+  //     name: string;
+  //     actor: string;
+  //     id: string;
+  //     image: string;
+  //     house?: string;
+  //   }
   //   useEffect(() => {
   //     fetch('./data.json')
   //       .then((response) => response.json())
@@ -32,19 +32,34 @@ const Characters = () => {
     <>
       <section id={styles.characters}>
         <>
-         
-          {characters&&
+          {characters &&
             characters.map((character) => (
               <>
-
-              {/* {character.house === "test" ? "test" :
+                {/* {character.house === "test" ? "test" :
    "bla")} */}
-                <aside style={{backgroundColor:`${character.house === "Gryffindor"
-                ?"#310012" : `${character.house === 'Slytherin' ? "#00381f" : 'hotpink'}`
-          }
-                `}}
-                
-                key={character.id}>
+                <aside
+                  style={{
+                    backgroundColor: `${
+                      character.house === "Gryffindor"
+                        ? "#310012"
+                        : `${
+                            character.house === "Slytherin"
+                              ? "#00381f"
+                              : `${
+                                  character.house === "Hufflepuff"
+                                    ? "#ecb939"
+                                    : `${
+                                        character.house === "Ravenclaw"
+                                          ? "	#222f5b"
+                                          : "black"
+                                      }`
+                                }`
+                          }`
+                    }
+                `,
+                  }}
+                  key={character.id}
+                >
                   <h2>{character.name}</h2>
 
                   {character.image && (
@@ -54,16 +69,14 @@ const Characters = () => {
                       alt={character.name}
                     />
                   )}
-                {
-                    character.house && (
-                        <p>{character.house}</p>
-                    )
-                }
 
-               
-                    <img className={styles.icon}
-                     src = {character.icon} alt={'character house icon'}/>
-                
+                  {character.icon && (
+                    <img
+                      className={styles.icon}
+                      src={character.icon}
+                      alt={"character house icon"}
+                    />
+                  )}
                 </aside>
               </>
             ))}
