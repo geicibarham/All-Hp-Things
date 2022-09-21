@@ -4,15 +4,14 @@ import Footer from "../footer/footer";
 
 import characters from "../../data";
 
+// const sly = characters.filter(character => character.house === "Slytherin");
+// console.log(sly)
+
 const Characters = () => {
   //   const [characters, setCharacters] = useState<Character[]>([]);
-  const [error, setError] = useState({});
-  const [test, setTest] = useState(false);
 
-  useEffect(() => {
-    setTest(true);
-  }, []);
-  //   const [data, setData] = useState<Character[]>([]);
+  const [data, setData] = useState(characters);
+  console.log(data[0]);
 
   //   interface Character {
   //     name: string;
@@ -21,19 +20,44 @@ const Characters = () => {
   //     image: string;
   //     house?: string;
   //   }
-  //   useEffect(() => {
-  //     fetch('./data.json')
-  //       .then((response) => response.json())
-  //       .then((res) => setData(res.slice(0, 5)))
-  //       .catch((err) => setError(err));
-  //   }, []);
+
+  const filtergriffyndor = () => {
+    const filteredgryffyindor = characters.filter(
+      (character) => character.house === "Gryffindor"
+    );
+    setData(filteredgryffyindor);
+  };
+
+  const filterSlytherin = () => {
+    const filteredSlytherin = characters.filter(
+      (character) => character.house === "Slytherin"
+    );
+    setData(filteredSlytherin);
+  };
+  const filterHufflepuff = () => {
+    const filteredHufflepuff = characters.filter(
+      (character) => character.house === "Hufflepuff"
+    );
+    setData(filteredHufflepuff);
+  };
+
+  const filterRavenclaw = () => {
+    const filteredRavenclaw = characters.filter(
+      (character) => character.house === "Ravenclaw"
+    );
+    setData(filteredRavenclaw);
+  };
 
   return (
     <>
+      <button onClick={filtergriffyndor}>Gryf</button>
+      <button onClick={filterSlytherin}>Sly</button>
+      <button onClick={filterHufflepuff}> Huff</button>
+      <button onClick={filterRavenclaw}> Rav</button>
       <section id={styles.characters}>
         <>
-          {characters &&
-            characters.map((character) => (
+          {data &&
+            data.map((character) => (
               <>
                 {/* {character.house === "test" ? "test" :
    "bla")} */}
