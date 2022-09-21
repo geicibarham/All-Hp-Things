@@ -24,7 +24,7 @@ display: grid;
 }
 
 #enter{
-    background-color: #0a1722;
+    background-color: #0a1722 !important;
     padding:14px;
     color:white;
     border-radius: 10px;

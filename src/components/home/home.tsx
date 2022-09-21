@@ -9,7 +9,7 @@ const Home = () => {
       <section id={styles.home}>
 
       <Link to="/characters">
-        <button id="enter"className="animate__animated animate__backInDown">
+        <button id={styles.enter}className="animate__animated animate__backInDown">
           Enter
         </button>
         </Link>

@@ -7,18 +7,14 @@ nav {
     justify-content: center;
     padding: 10px;
     line-height: 0;
-    width: 100%;
+    /* width: 100%; */
     top:0;
-
     display:flex;
     justify-content: center;
-
     position: -webkit-sticky;
     position: sticky;
     z-index: 9999;
     overflow: hidden
-    
-
 }
 
 h1 {
@@ -28,11 +24,3 @@ h1 {
     padding: 0;
     text-align: center;
 }
-
-
-
-/* @media screen and (max-width:768px) {
-    .nav{
-        background-color: hotpink;
-    }
-} */

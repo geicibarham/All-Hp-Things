@@ -1,12 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./characters.module.css";
 import Footer from "../footer/footer";
-
 import characters from "../../data";
-
-// const sly = characters.filter(character => character.house === "Slytherin");
-// console.log(sly)
-
 const Characters = () => {
   //   const [characters, setCharacters] = useState<Character[]>([]);
 
@@ -59,8 +54,7 @@ const Characters = () => {
           {data &&
             data.map((character) => (
               <>
-                {/* {character.house === "test" ? "test" :
-   "bla")} */}
+             
                 <aside
                   style={{
                     backgroundColor: `${

@@ -237,172 +237,114 @@ const characters = [
     "image":require ('../src/assets/images/tom.png'),
     },
     {
-    "id": "30af3d6b-5c42-455c-b892-df99e211efcb",
-    "name": "Dennis",
-    "actor": "Christopher Rithin",
-    "image": null
-    },
-    {
-    "id": "380b80eb-c337-478e-91d8-11c59e28ca86",
-    "name": "Gordon",
-    "actor": "",
-    "image": null
-    },
-    {
-    "id": "44d4ffd3-927a-4c4f-910f-a4ba7a9123ae",
-    "name": "Doris Crockford",
-    "actor": "Nina Young",
-    "image": null
-    },
-    {
     "id": "5364e7a5-23b8-477c-8953-965f34562fb7",
     "name": "Bathilda Bagshot",
     "actor": "",
-    "image": null
-    },
-    {
-    "id": "55d16764-fdeb-4376-9ecb-ef34a47ca42a",
-    "name": "Piers Polkiss",
-    "actor": "Jason Boyd",
-    "image": null
+    "image":require ('../src/assets/images/batilda.png'),
     },
     {
     "id": "7eb722d6-6198-4990-bdbf-a42774f146b4",
     "name": "Mrs Figg",
     "actor": "Kathryn Hunter",
-    "image": null
+    "image":require ('../src/assets/images/fig.png'),
     },
     {
     "id": "80863a85-074e-4421-92cb-0681a725e234",
     "name": "Newt Scamander",
     "actor": "Eddie Redmayne",
-    "image": null
+    "image":require ('../src/assets/images/newt.jpg'),
+    "house":"Hufflepuff",
+    "icon":require ('../src/assets/images/hif.png')
     },
     {
     "id": "82ee8ea0-306a-4b3b-b6dd-8b2a71a26fd3",
     "name": "Marge Dursley",
     "actor": "Pam Ferris",
-    "image": null
-    },
-    {
-    "id": "864b2966-2266-4f60-8fe0-771ea5c0ad6c",
-    "name": "Arsenius Jigger",
-    "actor": "",
-    "image": null
-    },
-    {
-    "id": "8ba604dd-e89b-43e5-a8bf-63c8de1baa63",
-    "name": "Emeric Switch",
-    "actor": "",
-    "image": null
+    "image":require ('../src/assets/images/marjorie.png'),
     },
     {
     "id": "af4eb7e3-b065-419e-98be-11dd07ce3d28",
     "name": "Madam Pomfrey",
     "actor": "Gemma Jones",
-    "image": null
-    },
-    {
-    "id": "bfe2080f-4056-4bed-a87c-f17c0ef83ae5",
-    "name": "Phyllida Spore",
-    "actor": "",
-    "image": null
-    },
-    {
-    "id": "e0875a6f-f3fd-4cfc-86dd-c18d2720d996",
-    "name": "Yvonne",
-    "actor": "",
-    "image": null
+    "image":require ('../src/assets/images/madam.jpg'),
     },
     {
     "id": "e3f65e23-77ab-4e46-a485-1f0e89e4037e",
     "name": "Quirinus Quirrel",
     "actor": "Ian Hart",
-    "image": null
-    },
-    {
-    "id": "f1d913cc-7312-4d84-ba20-f264f4db626d",
-    "name": "Adalbert Waffling",
-    "actor": "",
-    "image": null
-    },
-    {
-    "id": "f2dd0f83-178a-413a-a73f-053f6b6d4e1e",
-    "name": "Dedalus Diggle",
-    "actor": "David Brett",
-    "image": null
-    },
-    {
-    "id": "fb28cfe8-7690-42fe-ae55-c1fda14f1499",
-    "name": "Quentin Trimble",
-    "actor": "",
-    "image": null
+    "image":require ('../src/assets/images/quirrel.png'),
+    "house":"Ravenclaw",
+    "icon": require ('../src/assets/images/raw.png'),
     },
     {
     "id": "fe391b9e-f3d6-45e8-a46c-eed5335a83d3",
     "name": "Albus Dumbledore",
     "actor": "Richard Harris",
-    "image": null
+    "house":"Gryffindor",
+    "image": require ('../src/assets/images/dumbledore.png'),
+    "icon": require ('../src/assets/images/grif.png'),
     },
     {
     "id": "0b9fcad7-b835-4074-9fc5-e35f6e863d1b",
     "name": "Garrick Ollivander",
     "actor": "John Hurt",
-    "image": null
-    },
-    {
-    "id": "3b7c7a60-b132-45d0-9746-3c889977d3f8",
-    "name": "Madam Malkin",
-    "actor": "",
-    "image": null
+    "house":"Ravenclaw",
+    "image": require ('../src/assets/images/ollivander.jpg'),
+    "icon": require ('../src/assets/images/raw.png'),
     },
     {
     "id": "87390b5e-99e1-4e81-8db8-5c0e4cd787e7",
     "name": "Griphook",
     "actor": "Verne Troyer",
-    "image": null
-    },
-    {
-    "id": "9a2c7365-6187-4565-8df4-379a46412b68",
-    "name": "Vindictus Viridian",
-    "actor": "",
-    "image": null
+    "image": require ('../src/assets/images/griphook.jpg'),
     },
     {
     "id": "2359fcf7-bfc9-4ddc-9882-60759b3a1370",
     "name": "George Weasley",
     "actor": "Oliver Phelps",
-    "image": null
+    "image": require ('../src/assets/images/george.png'),
+    "icon": require ('../src/assets/images/grif.png'),
+    "house":"Gryffindor",
     },
     {
     "id": "255afead-f8dd-4c9c-88a8-1c96976c4b2c",
     "name": "Fred Weasley",
     "actor": "James Phelps",
-    "image": null
+    "image": require ('../src/assets/images/fred.jpg'),
+    "house":"Gryffindor",
+    "icon": require ('../src/assets/images/grif.png'),
     },
     {
     "id": "4ddf0144-cd00-462a-a0a2-bd42b4597a83",
     "name": "Percy Weasley",
     "actor": "Chris Rankin",
-    "image": null
+    "image": require ('../src/assets/images/percy.png'),
+    "icon": require ('../src/assets/images/grif.png'),
+    "house":"Gryffindor",
     },
     {
     "id": "5684e1a7-c6c8-4d77-b656-f9387d7fc63e",
     "name": "Lee Jordan",
     "actor": "Luke Youngblood",
-    "image": null
+    "image": require ('../src/assets/images/lee.jpg'),
+    "icon": require ('../src/assets/images/grif.png'),
+    "house":"Gryffindor",
     },
     {
     "id": "668785ed-9827-4dd3-ad1d-634dfc58047e",
     "name": "Molly Weasley",
     "actor": "Julie Walters",
-    "image": null
+    "image": require ('../src/assets/images/molly.jpg'),
+    "icon": require ('../src/assets/images/grif.png'),
+    "house":"Gryffindor",
     },
     {
     "id": "889eb11d-e6dc-4f61-a51c-48cb40865190",
     "name": "Charlie Weasley",
     "actor": "Alex Crockford",
-    "image": null
+    "image": require ('../src/assets/images/charlie.png'),
+    "icon": require ('../src/assets/images/grif.png'),
+    "house":"Gryffindor",
     },
     {
     "id": "acb6caa5-f62e-462d-b167-c810a3b57012",
