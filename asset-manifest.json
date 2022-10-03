@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Riddikulus/static/css/main.ebcd2be4.css",
-    "main.js": "/Riddikulus/static/js/main.6eaf6199.js",
+    "main.css": "/Riddikulus/static/css/main.bcece29b.css",
+    "main.js": "/Riddikulus/static/js/main.828bd757.js",
     "static/js/787.fe66363f.chunk.js": "/Riddikulus/static/js/787.fe66363f.chunk.js",
     "static/media/dud.png": "/Riddikulus/static/media/dud.b0e52196bc7f1db6d1e9.png",
     "static/media/batilda.png": "/Riddikulus/static/media/batilda.4b4bcbe0d33bcb9cd193.png",
@@ -16,6 +16,7 @@
     "static/media/newt.jpg": "/Riddikulus/static/media/newt.a7a4272b3888fd375e57.jpg",
     "static/media/charlie.png": "/Riddikulus/static/media/charlie.69f318ed50a24f259201.png",
     "static/media/hif.png": "/Riddikulus/static/media/hif.dbad39d7c3d62c2accf6.png",
+    "static/media/blaise.png": "/Riddikulus/static/media/blaise.acb00f42390226007d3f.png",
     "static/media/lilly.png": "/Riddikulus/static/media/lilly.556a27323723778882cb.png",
     "static/media/fig.png": "/Riddikulus/static/media/fig.61135d6ffa63a27af44a.png",
     "static/media/tom.png": "/Riddikulus/static/media/tom.911930ceb25b52edc20a.png",
@@ -28,15 +29,18 @@
     "static/media/lee.jpg": "/Riddikulus/static/media/lee.24ee173a5687f066e80f.jpg",
     "static/media/griphook.jpg": "/Riddikulus/static/media/griphook.aab9773e212007206a5f.jpg",
     "static/media/ollivander.jpg": "/Riddikulus/static/media/ollivander.96a2cca76abd87e4e369.jpg",
+    "static/media/black-background.jpg": "/Riddikulus/static/media/black-background.795855d9e67dd26143bf.jpg",
+    "static/media/bill.jpg": "/Riddikulus/static/media/bill.a64468f9a0f80da4afdf.jpg",
     "static/media/fred.jpg": "/Riddikulus/static/media/fred.3e1962983b1a62852f15.jpg",
+    "static/media/padma.jpg": "/Riddikulus/static/media/padma.57c894c490563f037e99.jpg",
     "static/media/madam.jpg": "/Riddikulus/static/media/madam.5b4d0b23f9752aab077b.jpg",
     "index.html": "/Riddikulus/index.html",
-    "main.ebcd2be4.css.map": "/Riddikulus/static/css/main.ebcd2be4.css.map",
-    "main.6eaf6199.js.map": "/Riddikulus/static/js/main.6eaf6199.js.map",
+    "main.bcece29b.css.map": "/Riddikulus/static/css/main.bcece29b.css.map",
+    "main.828bd757.js.map": "/Riddikulus/static/js/main.828bd757.js.map",
     "787.fe66363f.chunk.js.map": "/Riddikulus/static/js/787.fe66363f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebcd2be4.css",
-    "static/js/main.6eaf6199.js"
+    "static/css/main.bcece29b.css",
+    "static/js/main.828bd757.js"
   ]
 }
