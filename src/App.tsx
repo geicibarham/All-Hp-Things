@@ -12,7 +12,7 @@ function App() {
   return (
 <>
     <Router>
-      <Nav />
+      {/* <Nav /> */}
       <Routes>
         <Route path="/Riddikulus" element={<Home />} />
 

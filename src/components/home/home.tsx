@@ -1,11 +1,13 @@
 import styles from "./home.module.css";
 import "animate.css";
 import Footer from "../footer/footer";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import Nav from "../nav/nav";
 const Home = () => {
 
   return (
     <>
+    <Nav />
       <section id={styles.home}>
 
       <Link to="/characters">

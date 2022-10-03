@@ -20,6 +20,56 @@
     height: 300px;
 }
 
+.nav {
+    background-color: #0a1722;
+
+    color: white;
+    height: fit-content;
+    justify-content: center;
+    padding: 10px;
+    line-height: 0;
+
+    top:0;
+    justify-content: center;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 9999;
+    overflow: hidden;
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#title{
+    font-family: 'Harry P';
+    font-size: 45px;
+    padding: 0;
+    place-self: center;
+
+
+
+}
+
+#container {
+
+    justify-self: end;
+     align-items: center;
+}
+#filter{
+    width:30px !important;
+  height:30px;
+
+
+}
+
+
+#characterFound{
+    color:red;
+    font-weight: bold;
+  margin-left:30px;
+}
 aside{
     /* background-color: #310012; */
     padding:20px;
@@ -33,6 +83,8 @@ aside{
    
 
 }
+
+
 @media only screen and (max-width: 768px) {
     #characters{
       display: grid;

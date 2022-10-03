@@ -1,5 +1,6 @@
 .outer__container {
     background-image: url('../../assets/images/paper.jpg');
 
-    padding-top: 30px;
+    /* padding-top: 30px; */
+    /* width: 20%; */
 }
